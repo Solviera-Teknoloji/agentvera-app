@@ -1,0 +1,11 @@
+name: Feature request
+description: An idea, a missing agent or something that would make AgentVera better.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: The problem you hit and how you'd like AgentVera to help.
+    validations:
+      required: true

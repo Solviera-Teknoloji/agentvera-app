@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in AgentVera doesn't work as it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what happened instead. Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AgentVera version
+      description: Settings → About.
+      placeholder: 0.6.10
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [macOS (Apple silicon), macOS (Intel), Windows, Linux]
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent involved (if any)
+      placeholder: Claude Code 2.1, Codex 0.160…

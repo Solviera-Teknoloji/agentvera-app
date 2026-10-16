@@ -51,6 +51,10 @@ The app updates itself. Core features are free with unlimited agents; Pro and Te
 
 Looking at Conductor, Vibe Kanban, Claude Squad, Nimbalyst or Superset? See the side-by-side comparisons at [agentvera.dev/en/alternatives](https://agentvera.dev/en/alternatives/).
 
+## Changelog
+
+What changed in each release: [CHANGELOG.md](CHANGELOG.md).
+
 ## Feedback
 
 - **Bug or crash:** [open an issue](../../issues/new?template=bug.yml)

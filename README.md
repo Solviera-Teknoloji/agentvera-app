@@ -24,6 +24,13 @@ This repository is AgentVera's public home: **releases, issues and feature reque
   <img src="assets/workspace.png" alt="Claude Code, Codex, Gemini CLI and Copilot running side by side in AgentVera" width="100%">
 </p>
 
+## New in 0.8: a personal assistant, project memory and a browser
+
+- **Personal assistant.** It knows every project, your notes, tasks and past conversations, reads your day, follows your agents and chats in its own window.
+- **Project memory.** Agents leave handoff notes with open threads and recall earlier decisions, so the next agent picks up where the last one stopped.
+- **A browser you can live in.** History, bookmarks, suggestions and tabs that come back, next to your agents.
+- **1,036 skills for every agent** in a catalog of permissively licensed skills, per-agent auto or full-permission mode, and remote MCP servers with a one-time OAuth sign-in for every CLI.
+
 ## New in 0.7: agent teams
 
 Build a team from the agents already open in your workspace. Pick a manager, give every agent a role (researcher, planner, developer, reviewer or your own), and draw who hands work to whom. Then write one request: the manager splits it up, the members pass work along, and you watch it happen.
@@ -51,10 +58,10 @@ Claude Code · Codex · Gemini CLI · GitHub Copilot CLI · Cursor Agent · Anti
 - **Quality.** Automatic [code review](https://agentvera.dev/en/features/code-review/) when a turn ends, acceptance checks (Verify), [checkpoints and replay](https://agentvera.dev/en/features/checkpoints-and-replay/), and a project map (a tree-sitter code graph over MCP) so agents find the right files without reading the repo.
 - **Every CLI, fully supported.** Sign in to the accounts of every agent CLI without an API key; orchestration, agent-to-agent messages, MCP servers, permission prompts, usage and cost work the same for all of them.
 - **Limits and cost.** [Account switching](https://agentvera.dev/en/features/account-switching/) when a 5-hour or weekly limit runs low, context profiles, automatic `/compact`, bundled [RTK](https://github.com/rtk-ai/rtk) that compresses shell output before it reaches the model, and an "Automatic" model that picks Haiku, Sonnet or Opus per task.
-- **Skill gallery.** Share agent skills with everyone or your organization; every version is security-scanned and public ones are moderator-approved. [Browse skills →](https://app.agentvera.dev/skills)
+- **Skill gallery.** A catalog of 1,036 permissively licensed skills for every agent. Share agent skills with everyone or your organization; every version is security-scanned and public ones are moderator-approved. [Browse skills →](https://app.agentvera.dev/skills)
 - **Hand work over easily.** Paste or drop files and screenshots onto an agent; right-click the file tree to create, rename, duplicate, reveal or delete files.
 - **From your phone.** Control your agents remotely: projects, git, statistics, voice input, tasks, Docker and limits.
-- **Tools agents need.** [MCP manager](https://agentvera.dev/en/features/mcp-manager/), [database manager](https://agentvera.dev/en/features/database-manager/), [SSH/SFTP](https://agentvera.dev/en/features/ssh-and-sftp/) with per-host rules and an encrypted vault, Docker, an API client, an agent browser, and a [runner](https://agentvera.dev/en/runner/) for agents on your own server.
+- **Tools agents need.** [MCP manager](https://agentvera.dev/en/features/mcp-manager/), [database manager](https://agentvera.dev/en/features/database-manager/), [SSH/SFTP](https://agentvera.dev/en/features/ssh-and-sftp/) with per-host rules and an encrypted vault, Docker, an API client, a built-in browser with history and bookmarks, and a [runner](https://agentvera.dev/en/runner/) for agents on your own server.
 - **Teams.** Organizations, a [team kanban](https://agentvera.dev/en/features/teams-and-kanban/) whose cards go to your running agents, invite-only customer boards and [webhooks](https://agentvera.dev/en/webhooks/).
 
 Your code, conversations and settings stay on your computer; agents talk to their own providers under your accounts.
@@ -89,7 +96,7 @@ What changed in each release: [CHANGELOG.md](CHANGELOG.md).
 
 **AgentVera; Claude Code, Codex, Gemini CLI, Copilot ve 14 kodlama ajanını daha macOS, Windows ve Linux'ta yan yana çalıştıran bir masaüstü uygulaması.** Her ajan bilgisayarındaki kendi CLI'ıyla ve kendi hesabınla, gerçek bir terminalde çalışır; Claude ya da ChatGPT aboneliğin olduğu gibi kullanılır, API anahtarı gerekmez. AgentVera aralarındaki işi yönetir: düzenler, git worktree'ler, akışlar, kod incelemesi, limitler ve token tasarrufu.
 
-**0.7 ile ajan ekipleri geldi:** çalışma alanındaki ajanlardan bir yönetici ve ekip kurarsın, her ajana rol verir, kimin kime iş devredeceğini çizersin. Tek bir istek yazarsın; yönetici işi böler, ekip işi birbirine devreder, sen de ekip görünümünden her ajanın ne yaptığını, hangi adımda olduğunu izler, izinleri kartın üstünden verirsin. Ayrıca her CLI için oturum açarak hesap ekleme, akışlarda HTTP/Telegram/e-posta adımları, dosya ağacında sağ tık menüsü ve telefondan uzaktan kontrol var.
+**0.7 ile ajan ekipleri geldi:** çalışma alanındaki ajanlardan bir yönetici ve ekip kurarsın, her ajana rol verir, kimin kime iş devredeceğini çizersin. Tek bir istek yazarsın; yönetici işi böler, ekip işi birbirine devreder, sen de ekip görünümünden her ajanın ne yaptığını, hangi adımda olduğunu izler, izinleri kartın üstünden verirsin. **0.8 ile kişisel asistan geldi:** tüm projelerini, notlarını, görevlerini ve geçmiş konuşmalarını bilir, gününü okur, ajanlarını takip eder. Ajanlar proje hafızasına devir notları bırakır; yerleşik tarayıcı geçmişi, yer imlerini ve sekmeleri hatırlar; her ajan için 1.036 skill'lik bir katalog var. Ayrıca her CLI için oturum açarak hesap ekleme, akışlarda HTTP/Telegram/e-posta adımları, dosya ağacında sağ tık menüsü ve telefondan uzaktan kontrol var.
 
 [Türkçe site](https://agentvera.dev/) · [İndir](https://agentvera.dev/indir/) · [Özellikler](https://agentvera.dev/ozellikler/) · [Fiyatlar](https://agentvera.dev/fiyatlar/) · [Alternatifler](https://agentvera.dev/alternatifler/)
 

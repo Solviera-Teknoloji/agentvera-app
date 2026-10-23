@@ -2,6 +2,51 @@
 
 What changed in each AgentVera desktop release. The app updates itself; installers for every platform are on [agentvera.dev/en/download](https://agentvera.dev/en/download/).
 
+## 0.8.5 (2026-10-23)
+
+- When a new version is out, a window shows what it brings and updates in one click.
+- The first launch after an update shows what is new in that version.
+- The assistant and the chat no longer get stuck at the "do you trust this folder?" question.
+- An agent whose CLI ended on its own keeps its last screen.
+- Sessions opened from a phone show as "AgentVera Mobile" in the device list.
+- A confirmation email is sent when a paid subscription starts.
+- Security hardening across the app and the server.
+
+## 0.8.4 (2026-10-22)
+
+- On the Free plan, a prompt on launch shows what Pro adds.
+
+## 0.8.3 (2026-10-22)
+
+- A personal assistant that knows every project, your notes, tasks and past conversations. It reads your day, follows your agents and chats in its own window.
+- Project memory: agents leave handoff notes with open threads, recall and remember decisions (`brain_recall`, `brain_remember`), and the memory is compiled every night.
+
+## 0.8.2 (2026-10-21)
+
+- Agents can start in auto or full-permission mode, set per agent.
+- A full menu bar with the app's own actions, your shortcuts and your projects.
+- Fixes: Gemini agents get their MCP servers again, Codex and Gemini agents resume after a relaunch, and the browser stays smooth on busy sites.
+
+## 0.8.1 (2026-10-18)
+
+- The browser remembers: history, bookmarks, suggestions and tabs that come back.
+- A sleeping agent keeps its conversation on screen.
+
+## 0.8.0 (2026-10-18)
+
+- A built-in browser you can live in.
+- A catalog of 1,036 permissively licensed skills for every agent.
+- Sleep prevention follows the setting.
+- Four new games, including a Doom-style shooter.
+- macOS releases are signed with a Developer ID and notarized.
+
+## 0.7.2 (2026-10-17)
+
+- Local agents reach remote MCP servers through AgentVera's gateway: OAuth sign-in happens once in the app, and every CLI can use SSE servers.
+- Agents list the MCP servers, attach them to themselves or their group and ask you for new ones.
+- Groups and team roles carry MCP servers, so ready-made teams start with their tools. The catalog adds Canva, fal.ai and Meta Ads.
+- Customer board tabs count the cards added since the board was last opened.
+
 ## 0.7.1 (2026-10-16)
 
 - The team view shows each agent's request, its current step and how long it has been working.

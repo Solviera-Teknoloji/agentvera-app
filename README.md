@@ -24,6 +24,15 @@ This repository is AgentVera's public home: **releases, issues and feature reque
   <img src="assets/workspace.png" alt="Claude Code, Codex, Gemini CLI and Copilot running side by side in AgentVera" width="100%">
 </p>
 
+## New in 0.9: themes, six languages and a shared board
+
+- **Themes.** Pick a light or dark color theme (Midnight, Forest, Rose, Amber, Ocean, Violet, Sepia, Mint, Sky, Graphite); terminal colors follow it.
+- **Six languages.** The app now speaks German, Spanish, French, Portuguese and Russian, besides English and Turkish.
+- **Shareable templates.** Share flows and agent teams as a file or a link, and add ready-made ones from the [community gallery](https://app.agentvera.dev/templates) in one click.
+- **Personal and team plans on one email.** Add the same email for both; every account shows its organization and plan.
+- **Project board for agents.** Agents post decisions, findings and todos to the project board through the `agentvera-board` MCP server, and a night shift summary card shows what they did while you were away.
+- **Lighter and steadier.** Lower memory use, a limit bar that keeps the last reading, and Windows builds tested on every release.
+
 ## New in 0.8: a personal assistant, project memory and a browser
 
 - **Personal assistant.** It knows every project, your notes, tasks and past conversations, reads your day, follows your agents and chats in its own window.
@@ -113,7 +122,7 @@ What changed in each release: [CHANGELOG.md](CHANGELOG.md).
 
 **AgentVera; Claude Code, Codex, Gemini CLI, Copilot ve 14 kodlama ajanını daha macOS, Windows ve Linux'ta yan yana çalıştıran bir masaüstü uygulaması.** Her ajan bilgisayarındaki kendi CLI'ıyla ve kendi hesabınla, gerçek bir terminalde çalışır; Claude ya da ChatGPT aboneliğin olduğu gibi kullanılır, API anahtarı gerekmez. AgentVera aralarındaki işi yönetir: düzenler, git worktree'ler, akışlar, kod incelemesi, limitler ve token tasarrufu.
 
-**0.7 ile ajan ekipleri geldi:** çalışma alanındaki ajanlardan bir yönetici ve ekip kurarsın, her ajana rol verir, kimin kime iş devredeceğini çizersin. Tek bir istek yazarsın; yönetici işi böler, ekip işi birbirine devreder, sen de ekip görünümünden her ajanın ne yaptığını, hangi adımda olduğunu izler, izinleri kartın üstünden verirsin. **0.8 ile kişisel asistan geldi:** tüm projelerini, notlarını, görevlerini ve geçmiş konuşmalarını bilir, gününü okur, ajanlarını takip eder. Ajanlar proje hafızasına devir notları bırakır; yerleşik tarayıcı geçmişi, yer imlerini ve sekmeleri hatırlar; her ajan için 1.036 skill'lik bir katalog var. Ayrıca her CLI için oturum açarak hesap ekleme, akışlarda HTTP/Telegram/e-posta adımları, dosya ağacında sağ tık menüsü ve telefondan uzaktan kontrol var.
+**0.7 ile ajan ekipleri geldi:** çalışma alanındaki ajanlardan bir yönetici ve ekip kurarsın, her ajana rol verir, kimin kime iş devredeceğini çizersin. Tek bir istek yazarsın; yönetici işi böler, ekip işi birbirine devreder, sen de ekip görünümünden her ajanın ne yaptığını, hangi adımda olduğunu izler, izinleri kartın üstünden verirsin. **0.8 ile kişisel asistan geldi:** tüm projelerini, notlarını, görevlerini ve geçmiş konuşmalarını bilir, gününü okur, ajanlarını takip eder. Ajanlar proje hafızasına devir notları bırakır; yerleşik tarayıcı geçmişi, yer imlerini ve sekmeleri hatırlar; her ajan için 1.036 skill'lik bir katalog var. Ayrıca her CLI için oturum açarak hesap ekleme, akışlarda HTTP/Telegram/e-posta adımları, dosya ağacında sağ tık menüsü ve telefondan uzaktan kontrol var. **0.9 ile temalar ve yeni diller geldi:** açık ve koyu renk temaları; Almanca, İspanyolca, Fransızca, Portekizce ve Rusça arayüz; akışları ve ekipleri şablon olarak paylaşma ve topluluk galerisi; aynı e-postayla kişisel ve ekip planı; ajanların karar ve bulgularını yazdığı proje panosu ve gece mesaisi özeti.
 
 **Açık kaynak:** AgentVera'nın her projeye verdiği ortak not panosu, MIT lisanslı bağımsız bir MCP sunucusu olarak da var. Claude Code, Codex, Gemini CLI ve diğer ajanlar projedeki tek bir dosyada not, karar ve görev paylaşır: [agentvera-board](https://github.com/Solviera-Teknoloji/agentvera-board-mcp).
 

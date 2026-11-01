@@ -2,6 +2,87 @@
 
 What changed in each AgentVera desktop release. The app updates itself; installers for every platform are on [agentvera.dev/en/download](https://agentvera.dev/en/download/).
 
+## 0.9.0 (2026-11-01)
+
+- Themes: pick a light or dark color theme in Settings > Appearance (Midnight, Forest, Rose, Amber, Ocean, Violet, Sepia, Mint, Sky, Graphite); terminal colors follow the theme.
+- New languages: the interface and release notes now come in German, Spanish, French, Portuguese and Russian.
+- Memory: project maps and the code map use less memory in the main process, so long sessions no longer grow the way they did.
+- Project board (agentvera-board MCP): agents post decisions, findings and todos as short notes on the project board, and the other agents and you can read them and pick up from there.
+- Different plans on one email: add the same email once for your personal plan and once for your team plan; account cards and the account picker show each one's organization and plan, and warn when two accounts share one organization.
+- When usage can't be read, the limit bar at the bottom of the window shows the last reading instead of "No data".
+- Windows: missing agent CLIs install through winget/PowerShell, and the Windows build is built and launch-tested automatically on every release.
+- Templates: share your flows and teams as a file or a link, and add ready-made templates from the community gallery to a project in one click; templates never include addresses, secrets or file paths.
+- Night shift summary: what your agents did while you were away is waiting in one card in the morning.
+- Invite a friend: when the person you invite joins, you both get a free month of Pro.
+- First run has a short quick start, and you can install missing agent CLIs in a terminal inside the app.
+
+## 0.8.18 (2026-10-30)
+
+- The new agent dialog shows the install command when Claude Code or Codex is missing: copy it, install, then check again with one click.
+- When an agent on the Free plan hits its account limit, you see that on Pro it would move to your other account by itself and carry on.
+
+## 0.8.17 (2026-10-29)
+
+- Smoother switching when an account runs out: agents move to the next account as soon as the CLI reports the limit, and near the limit they switch between turns instead of cutting a running turn off.
+- Lower memory use: diagnostics, conversation search and other CLIs' histories no longer load whole files into memory.
+- A suggestion card shows skills that fit your project's stack and the kind of work you do.
+- Agents launch at their pane's size, so the terminal looks right from the start.
+
+## 0.8.15 (2026-10-28)
+
+- Better terminal on Windows: Ctrl+letter shortcuts go to the terminal, typing with AltGr no longer fires shortcuts, Ctrl+C/Ctrl+V copy and paste, and the terminal menu has Paste.
+- On Windows, closing an SSH tab ends the connection fully, background processes no longer flash console windows and cmd shows non-ASCII text correctly.
+- Signed-out users see what an account adds (phone control, sync) after an agent finishes real work.
+
+## 0.8.14 (2026-10-28)
+
+- opencode agents can be resumed and forked again: session creation with opencode 2.x is fixed.
+- Read-only server and database modes are stricter: commands and queries that could change the system now ask for approval.
+- Removing a team backs up uncommitted changes first, so no work is lost.
+- Preview and dev servers now stop when the app quits.
+- Tasks on remote servers are more reliable: long tasks no longer run twice and status updates survive a dropped connection.
+- File names show correctly on Windows, plus small translation fixes.
+
+## 0.8.13 (2026-10-26)
+
+- In the file browser, drag and drop files between the server and your computer; server files can also be dragged to Finder or the desktop.
+
+## 0.8.12 (2026-10-26)
+
+- Small improvements and stability fixes.
+
+## 0.8.11 (2026-10-25)
+
+- Kimi Code 2.x now starts inside AgentVera: the "unknown option '--mcp-config-file'" error is fixed, and your MCP servers load through Kimi Code's own config folder.
+- Settings → Permission rules: view and edit each agent CLI's own permission rules (allow / ask / deny) per scope and account.
+- A tidier sidebar: the link row under each agent is gone.
+
+## 0.8.10 (2026-10-25)
+
+- The SFTP / FTP browser is redesigned: folder tree, back/forward, sortable columns, a filter, hidden files and keyboard shortcuts.
+- Type or paste a path (~, file:// and sftp:// work too) to go straight there; a file path opens its folder with the file selected. Local files open in their app or show in their folder.
+- The games are livelier: new effects and graphics, better mechanics and a map in the dungeon.
+- On Windows the terminal scrolls back now, so earlier Claude Code and Codex output is reachable again.
+
+## 0.8.9 (2026-10-24)
+
+- When you correct an agent (say, "no, use pnpm" in the chat), AgentVera suggests a lasting rule; the ones you accept are written to AGENTS.md, CLAUDE.md, GEMINI.md, .cursorrules and the other instruction files at once, so every agent follows them.
+- The new Rules tab in the Brain panel lists the learned rules; edit or remove one and every file follows.
+
+## 0.8.7 (2026-10-24)
+
+- Editing an agent now keeps its conversation and memory, and moving it to another account continues the same conversation. Only changing the tool starts a new one.
+- Automatic account switching now reaches every session that hits a limit, including when several hit it at once or a session has no account set.
+
+## 0.8.6 (2026-10-24)
+
+- Send feedback from the Help menu, the status bar or Settings → About, with optional diagnostics.
+- When the app crashes or an agent exits with an error, a scrubbed error report is sent; turn it off in Settings → About.
+- Emails to your account now follow the language you chose in the app.
+- The memory guard counts the Windows commit limit and warns you when the machine runs low on memory.
+- The web panel is available in English, with its pages in a single top bar.
+- Payment receipts are sent with the subscription-started email.
+
 ## 0.8.5 (2026-10-23)
 
 - When a new version is out, a window shows what it brings and updates in one click.

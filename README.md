@@ -66,6 +66,16 @@ Claude Code · Codex · Gemini CLI · GitHub Copilot CLI · Cursor Agent · Anti
 
 Your code, conversations and settings stay on your computer; agents talk to their own providers under your accounts.
 
+## Open source: agentvera-board
+
+The shared notice board AgentVera gives every project is also a standalone, MIT-licensed MCP server. Claude Code, Codex, Gemini CLI, opencode, Cursor and other MCP clients share notes, decisions and todos in one file in your project, with or without AgentVera.
+
+```bash
+claude mcp add agentvera-board -- npx -y agentvera-board-mcp
+```
+
+[Repository](https://github.com/Solviera-Teknoloji/agentvera-board-mcp) · [npm](https://www.npmjs.com/package/agentvera-board-mcp) · Official MCP Registry: `dev.agentvera/board`
+
 ## Download
 
 | Platform | Installer |
@@ -97,6 +107,8 @@ What changed in each release: [CHANGELOG.md](CHANGELOG.md).
 **AgentVera; Claude Code, Codex, Gemini CLI, Copilot ve 14 kodlama ajanını daha macOS, Windows ve Linux'ta yan yana çalıştıran bir masaüstü uygulaması.** Her ajan bilgisayarındaki kendi CLI'ıyla ve kendi hesabınla, gerçek bir terminalde çalışır; Claude ya da ChatGPT aboneliğin olduğu gibi kullanılır, API anahtarı gerekmez. AgentVera aralarındaki işi yönetir: düzenler, git worktree'ler, akışlar, kod incelemesi, limitler ve token tasarrufu.
 
 **0.7 ile ajan ekipleri geldi:** çalışma alanındaki ajanlardan bir yönetici ve ekip kurarsın, her ajana rol verir, kimin kime iş devredeceğini çizersin. Tek bir istek yazarsın; yönetici işi böler, ekip işi birbirine devreder, sen de ekip görünümünden her ajanın ne yaptığını, hangi adımda olduğunu izler, izinleri kartın üstünden verirsin. **0.8 ile kişisel asistan geldi:** tüm projelerini, notlarını, görevlerini ve geçmiş konuşmalarını bilir, gününü okur, ajanlarını takip eder. Ajanlar proje hafızasına devir notları bırakır; yerleşik tarayıcı geçmişi, yer imlerini ve sekmeleri hatırlar; her ajan için 1.036 skill'lik bir katalog var. Ayrıca her CLI için oturum açarak hesap ekleme, akışlarda HTTP/Telegram/e-posta adımları, dosya ağacında sağ tık menüsü ve telefondan uzaktan kontrol var.
+
+**Açık kaynak:** AgentVera'nın her projeye verdiği ortak not panosu, MIT lisanslı bağımsız bir MCP sunucusu olarak da var. Claude Code, Codex, Gemini CLI ve diğer ajanlar projedeki tek bir dosyada not, karar ve görev paylaşır: [agentvera-board](https://github.com/Solviera-Teknoloji/agentvera-board-mcp).
 
 [Türkçe site](https://agentvera.dev/) · [İndir](https://agentvera.dev/indir/) · [Özellikler](https://agentvera.dev/ozellikler/) · [Fiyatlar](https://agentvera.dev/fiyatlar/) · [Alternatifler](https://agentvera.dev/alternatifler/)
 

@@ -85,6 +85,13 @@ claude mcp add agentvera-board -- npx -y agentvera-board-mcp
 | Windows (x64) | [AgentVera-win-x64.exe](https://agentvera.dev/downloads/latest/AgentVera-win-x64.exe) |
 | Linux (x64) | [AppImage](https://agentvera.dev/downloads/latest/AgentVera-linux-x86_64.AppImage) · [.deb](https://agentvera.dev/downloads/latest/AgentVera-linux-amd64.deb) |
 
+On macOS you can also install it with Homebrew:
+
+```bash
+brew trust solviera-teknoloji/tap
+brew install --cask solviera-teknoloji/tap/agentvera
+```
+
 The app updates itself. Core features are free with unlimited agents; Pro and Team plans add flows, the pipeline, night shift, auto approval, account switching, the database manager and team features. [Compare plans →](https://agentvera.dev/en/pricing/)
 
 ## Alternatives and comparisons

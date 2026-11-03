@@ -20,6 +20,14 @@ AgentVera is a desktop app that runs the coding agents already installed on your
 
 This repository is AgentVera's public home: **releases, issues and feature requests**. The app itself is closed source.
 
+**At a glance**
+
+- **Parallel agents on Windows, macOS and Linux.** A native Windows app (x64 installer, no WSL needed), a Mac app and a Linux build. Claude Code, Codex, Gemini CLI, Copilot, Cursor, OpenCode and the other agents each run in their own real terminal, side by side in a grid per project.
+- **A git worktree per agent**, so parallel tasks don't overwrite each other's files; you review the diffs and merge.
+- **Your own subscriptions.** It starts the `claude`, `codex` and other CLIs you already installed and signed in to.
+- **Free plan with unlimited agents.** Pro adds account chains that move an agent to your next account at the usage limit, night shift with auto approval, flows and a kanban board that hands cards to agents. [Plans →](https://agentvera.dev/en/pricing/)
+- **Short guides** for each of these are in [docs/](docs/).
+
 <p align="center">
   <img src="assets/workspace.png" alt="Claude Code, Codex, Gemini CLI and Copilot running side by side in AgentVera" width="100%">
 </p>

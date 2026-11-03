@@ -113,6 +113,8 @@ Side-by-side comparisons, with facts checked on each tool's own site (last check
 
 Guides: [best tools to run AI coding agents in parallel](https://agentvera.dev/en/blog/best-tools-parallel-ai-coding-agents/) · [Claude Code account switchers compared](https://agentvera.dev/en/blog/claude-code-account-switchers/) · [kanban boards for AI coding agents](https://agentvera.dev/en/blog/kanban-boards-for-ai-coding-agents/) · [Vibe Kanban alternatives](https://agentvera.dev/en/blog/vibe-kanban-alternatives/) · [all comparisons](https://agentvera.dev/en/alternatives/)
 
+Docs in this repository: [short answer-first pages](docs/) on account switching, running agents side by side, team kanban, the MCP manager and night shift.
+
 ## Changelog
 
 What changed in each release: [CHANGELOG.md](CHANGELOG.md).

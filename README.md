@@ -105,7 +105,13 @@ The app updates itself. Core features are free with unlimited agents; Pro and Te
 
 ## Alternatives and comparisons
 
-Looking at Conductor, Vibe Kanban, Claude Squad, Nimbalyst or Superset? See the side-by-side comparisons at [agentvera.dev/en/alternatives](https://agentvera.dev/en/alternatives/).
+Side-by-side comparisons, with facts checked on each tool's own site (last checked 3 November 2026):
+
+- Desktop apps for running agents in parallel: [Conductor](https://agentvera.dev/en/alternatives/conductor/), [Orca](https://agentvera.dev/en/alternatives/orca/), [Nimbalyst](https://agentvera.dev/en/alternatives/nimbalyst/), [Paradev (formerly Superset)](https://agentvera.dev/en/alternatives/superset/), [Caprock](https://agentvera.dev/en/alternatives/caprock/), [Swarmterm](https://agentvera.dev/en/alternatives/swarmterm/), [Canopy](https://agentvera.dev/en/alternatives/canopy/)
+- Official vendor apps: [Claude desktop app (Code tab)](https://agentvera.dev/en/alternatives/claude-desktop/), [ChatGPT desktop app (Codex)](https://agentvera.dev/en/alternatives/codex-app/), [VS Code Agents window](https://agentvera.dev/en/alternatives/vscode-agents/)
+- Terminals and boards: [Claude Squad](https://agentvera.dev/en/alternatives/claude-squad/), [Vibe Kanban](https://agentvera.dev/en/alternatives/vibe-kanban/), [Warp](https://agentvera.dev/en/alternatives/warp/), [tmux](https://agentvera.dev/en/alternatives/tmux/), [Zed](https://agentvera.dev/en/alternatives/zed/)
+
+Guides: [best tools to run AI coding agents in parallel](https://agentvera.dev/en/blog/best-tools-parallel-ai-coding-agents/) · [Claude Code account switchers compared](https://agentvera.dev/en/blog/claude-code-account-switchers/) · [kanban boards for AI coding agents](https://agentvera.dev/en/blog/kanban-boards-for-ai-coding-agents/) · [Vibe Kanban alternatives](https://agentvera.dev/en/blog/vibe-kanban-alternatives/) · [all comparisons](https://agentvera.dev/en/alternatives/)
 
 ## Changelog
 
